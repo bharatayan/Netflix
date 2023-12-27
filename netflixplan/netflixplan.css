@@ -1,0 +1,459 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&family=Raleway:wght@100&family=Rubik+Puddles&family=Rubik+Spray+Paint&family=Secular+One&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+:root{
+    --black:#000;
+    --white:#fff;
+    --red: #e50914;
+ }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+html::-webkit-scrollbar{
+    width: 4px;
+}
+html::-webkit-scrollbar-track{
+background:transparent;
+}
+html::-webkit-scrollbar-thumb{
+background-color: var(--black);
+}
+main{
+    overflow: hidden;
+    }
+/* header-section */
+
+/* header */
+.netflexlogo{
+    padding-top: 20px;
+    margin: auto;
+}
+header{
+    background: url('/Netflix/Netflix-img/background-url.jpg') no-repeat center center/cover;
+    width: 100%;
+    height:600px ;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.backgrounurl{
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header .netflexlogo .image{
+     width: 135px;
+}
+.header .netflexlogo .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.header .signin{
+    padding: 4px 8px;
+    background: var(--red);
+    color: var(--white);
+    border: none;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+}
+.backgrounurl{
+    
+}
+.backgrounurl .row .content{
+
+}
+.backgrounurl .row {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 153px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.backgrounurl .row .content h1{
+    font-size: 65px;
+}
+.backgrounurl .row .content p{
+    font-size: 20px;
+    line-height: 2;
+}
+.backgrounurl .row .content a{
+    line-height: 5;
+}
+
+.backgrounurl .row .content .btn{
+    padding: 17px 36px;
+    background: var(--red);
+    color: var(--white);
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+.backgrounurl .row .content .btn strong{
+    font-size: 19px;
+    padding-left: 8px;
+}
+
+/* header */
+/* header-section */
+
+
+/* tags */
+.tags{
+background-color: black;
+border-bottom: 3px solid #80808073;
+}
+.tags .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px , 1fr));
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+}
+.tags .box-container .box{
+    color: gray;
+    cursor: pointer;
+    transition: all 0.77s;
+}
+.tags .box-container .box:hover{
+    color: white;
+}
+
+.tags .box-container .box i{
+    font-size: 65px;
+}
+.tags .box-container .box p{
+    font-size: 20px;
+}
+.tags .box-container .active{
+    border-bottom: 5px solid var(--red);
+}
+
+/* tags */
+
+/* section 2 */
+.Netflex-content{
+    padding-top: 47px;
+    background-color: var(--black);
+}
+.Netflex-content .box-container{
+    max-width: 700px;
+    margin: auto;
+}
+.Netflex-content .box-container .box{
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.Netflex-content .box-container .box .content{
+    flex: 50px;
+}
+.Netflex-content  .box .content h1{
+    font-weight: normal;
+    max-width: 279px;
+    font-size: 30px;
+    padding-bottom: 23px;
+    color: white;
+}
+.Netflex-content  .box .content .btn{
+    padding: 13px 30px;
+    background: var(--red);
+    color: var(--white);
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+.Netflex-content  .box .content .btn:hover{
+    background-color:rgb(158, 5, 5);
+}
+
+.Netflex-content  .box .content .btn strong{
+
+}
+.Netflex-content  .box .image{
+flex: 50px;
+}
+.Netflex-content  .box .image img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
+/* section 2 */
+
+/* section 3  */
+.Watch-anywhere{
+    padding-top: 47px;
+    background-color: var(--black);
+}
+.Watch-anywhere .row{
+    max-width: 700px;
+    margin: auto;
+}
+.Watch-anywhere .row .box{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+}
+.Watch-anywhere .row .box .content{
+    flex: 50px;
+}
+.Watch-anywhere .row .box .content h1{
+    font-weight: normal;
+    max-width: 279px;
+    font-size: 30px;
+    padding-bottom: 23px;
+    color: white;
+}
+.Watch-anywhere .row .box .button {
+ flex: 50px;
+}
+.Watch-anywhere .row .box .button .btn {
+    padding: 13px 30px;
+    background: var(--red);
+    color: var(--white);
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+.Watch-anywhere .row .box .button .btn:hover{
+    background-color:rgb(158, 5, 5);
+
+}
+.Watch-anywhere .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px , 1fr));
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    padding-top: 30px;
+}
+.Watch-anywhere .box-container .box{
+color: white;
+}
+.Watch-anywhere .box-container .box .image{
+width: 200px;
+margin: auto;
+}
+.Watch-anywhere .box-container .box .image img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
+.Watch-anywhere .box-container .box .content{
+
+}
+.Watch-anywhere .box-container .box .content h1{
+    font-weight: normal;
+    line-height: 2;
+    font-size: 19px;
+}
+.Watch-anywhere .box-container .box .content p{
+    font-size: 15px;
+    color: gray;
+}
+
+/* section 3  */
+
+/* section 4  */
+.plans{
+    padding-top: 47px;
+    background-color: var(--black);
+    color: white;
+}
+.plans .row{
+    max-width: 700px;
+    margin: auto;
+}
+.plans .row .content{
+    text-align: center;
+    color: white;
+}
+.plans .row .content h1{
+    line-height: 3;
+    font-weight: normal;
+    font-size: 29px;
+}
+.plans .row .content .btn {
+    padding: 13px 30px;
+    background: var(--red);
+    color: var(--white);
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+.plans .row .content .btn:hover{
+    background-color:rgb(158, 5, 5);
+}
+.plans .table{
+    padding-top: 35px;
+    position: relative;
+}
+.plans .table table{
+    margin: auto;
+    width: 100%;
+}
+.plans .table table thead{
+
+}
+.plans .table table thead tr{
+    position: absolute;
+    right: 7px;
+    top: 5px;
+}
+.plans .table table thead tr th{
+    font-weight: normal;
+    padding: 0px 3px;
+}
+.plans .table table tbody {
+
+}
+.plans .table table tbody tr{
+    background: #80808052;
+    text-align: center;
+}
+.plans .table table tbody tr td{
+    padding: 7px 0px;
+}
+
+/* section 4  */
+
+/* .Netflex-content,
+.Watch-anywhere,
+.plans{
+    display: none;
+} */
+
+#tab-1-content,
+#tab-2-content,
+#tab-3-content{
+    display: none;
+}
+.show{
+    display: block !important;
+    transition: all 3s !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+background: black;
+color: #c3c0c0;
+padding: 50px 80px;
+border-top: 5px solid #302d2de0;
+}
+footer .heading{
+
+}
+footer .heading p{
+
+}
+footer .row {
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(200px , 1fr));
+padding-top: 22px;
+}
+footer .row .col{
+
+}
+footer .row .col a{
+display: block;
+color: #c3c0c0;
+padding: 10px 0px;
+}
+footer .row .col a:hover{
+    text-decoration: underline;
+}
+
+footer .dropdown{
+    padding: 29px 0px;
+}
+footer .dropdown #selectitem{
+    padding: 16px 23px;
+    background: var(--black);
+    color: #737373;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    border-top: 1px solid #737373ad;
+    border-bottom: 1px solid #737373ad;
+}
+footer .dropdown #selectitem option{
+    background: var(--black);
+    color: #737373;
+    font-weight: bold;
+}
+footer span{
+
+}
+
+/* footer */
+
+
+
+@media(max-width:550px){
+    .Netflex-content .box-container .box .content {
+        flex: unset;
+    }
+    .Netflex-content .box .image {
+        width: 361px;
+        flex: unset;
+    }
+}
+@media(max-width:585px){
+    .Watch-anywhere .row .box .content {
+        flex: unset;
+    }
+    .Watch-anywhere .row .box .button {
+        flex: unset;
+    }
+}
+@media(max-width:768px){
+    footer {
+        padding: 50px 15px;
+    }
+}

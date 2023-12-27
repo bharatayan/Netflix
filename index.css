@@ -1,0 +1,693 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&family=Raleway:wght@100&family=Rubik+Puddles&family=Rubik+Spray+Paint&family=Secular+One&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+:root{
+    --black:#000;
+    --white:#fff;
+    --red: #e50914;
+ }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+html::-webkit-scrollbar{
+    width: 4px;
+}
+html::-webkit-scrollbar-track{
+background:transparent;
+}
+html::-webkit-scrollbar-thumb{
+background-color: var(--black);
+}
+main{
+    overflow: hidden;
+    }
+    section{
+        padding: 50px 19px;
+        background: var(--black);
+        border-top:5px solid #302d2de0;
+    }
+/* header-section */
+
+/* header */
+header{
+    background: url('/Netflix/Netflix-img/background-url.jpg') no-repeat center center/cover;
+    width: 100%;
+    height:600px ;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.backgrounurl{
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+   
+.header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 27px;
+} 
+.header .netflexlogo{
+
+}
+.header .netflexlogo .image{
+     width: 135px;
+    margin-left: 55px;
+}
+.header .netflexlogo .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.header .ntfxbutton{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header .ntfxbutton .drop{
+
+}
+.header .ntfxbutton #selectitem {
+    padding: 7px 7px;
+    background: var(--black);
+    color: var(--white);
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid #ffffff75;
+}
+.header .ntfxbutton #selectitem option {
+    background: #b9b2b2;
+    color: white;
+    font-weight: bold;
+}
+.header .ntfxbutton .buttonSignin {
+    padding: 0px 33px;
+}
+
+.header .ntfxbutton .buttonSignin button {
+    padding: 7px 15px;
+    background: var(--red);
+    color: var(--white);
+    border: none;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+}
+/* header */
+
+/* header-section */
+
+/* Unlimited movies, TV */
+.unlimited-movies {
+    position: absolute;
+    top: 171px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.unlimited-movies .row{
+
+}
+.unlimited-movies .row .content{
+    color: white;
+}
+.unlimited-movies .row .content h1{
+    font-size: 50px;
+}
+.unlimited-movies .row .content #p1{
+    padding-top: 8px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.unlimited-movies .row .content #p2{
+    padding-top: 24px;
+    padding-bottom: 16px;
+    font-size: 20px;
+}
+.unlimited-movies .row .form .input{
+    width: 400px;
+}
+.unlimited-movies .row .form .input input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid gainsboro;
+    outline: none;
+    padding: 17px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 12px;
+}
+.unlimited-movies .row .form .button{
+    width: 215px;
+}
+.unlimited-movies .row .form .button button{
+    height: 100%;
+    width: 100%;
+    padding: 17px 3px;
+    border: 1px solid var(--red);
+    background: var(--red);
+    color: var(--white);
+    font-weight: bold;
+    font-size: 19px;
+    cursor: pointer;
+}
+.unlimited-movies .row .form #chevron{
+    padding-left: 10px;
+}
+.unlimited-movies .row form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Unlimited movies, TV */
+
+
+/* section-1 start */
+.first{
+
+}
+
+.first .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 14px;
+}
+.first .row .content{
+    color: var(--white);
+    flex: 200px;
+    padding-left: 32px;
+}
+.first .row .content h1{
+    font-size: 44px;
+}
+.first .row .content p{
+    padding-top: 15px;
+    font-size: 23px;
+    max-width: 415px;
+}
+.first .row .videoembed{
+    position: relative;
+    flex: 200px;
+    padding-top: 23px;
+}
+.first .row .videoembed .video video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: 0px 66px;
+}
+.first .row .videoembed .video {
+}
+.first .row .videoembed .image{
+width: 300px;
+padding-top: 15px;
+}
+.first .row .videoembed .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+/* section-1 end */
+*::selection{
+background: rgb(66, 60, 60);
+}
+
+/* section-2 start */
+.second{
+
+} 
+.second .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+
+}
+.second .row .downloading{
+    flex: 200px;
+    position: relative;
+}
+.second .row .downloading .image{
+    width: 400px;
+}
+.second .row .downloading .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.second .row .downloading .download{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    background: black;
+    border: 2px solid gray;
+    border-radius: 11px;
+    width: 258px;
+    padding: 18px 10px;
+    margin-left: 70px;
+}
+.second .row .downloading .download .show{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.second .row .downloading .download .show .image{
+    width: 50px;
+}
+.second .row .downloading .download .show .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.second .row .downloading .download .show .content{
+    padding-left: 15px;
+}
+.second .row .downloading .download .show .content h6{
+    font-size: 17px;
+}
+.second .row .downloading .download .show .content p{
+    font-size: 15px;
+    padding-top: 2px;
+    color: blue;
+}
+.second .row .downloading .download .load{
+    
+}
+.second .row .downloading .download .load .image{
+    width: 50px;
+}
+.second .row .downloading .download .load .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.second .row .content{
+    flex: 200px;
+    color: var(--white);
+}
+.second .row .content h1{
+    font-size: 50px;
+}
+.second .row .content p{
+    font-size: 22px;
+}
+/* section-2 end */
+
+/* section-3 start */
+.third{
+
+   }
+   
+   .third .row{
+       display: flex;
+       align-items: center;
+       flex-wrap: wrap;
+       padding-top: 14px;
+   }
+   .third .row .content{
+       color: var(--white);
+       flex: 200px;
+       padding-left: 32px;
+   }
+   .third .row .content h1{
+       font-size: 44px;
+   }
+   .third .row .content p{
+       padding-top: 15px;
+       font-size: 23px;
+       max-width: 415px;
+   }
+   .third .row .videoembed{
+       position: relative;
+       flex: 200px;
+       padding-top: 23px;
+   }
+   .third .row .videoembed .video video{
+       height: 100%;
+       width: 100%;
+       object-fit: cover;
+       padding: 0px 100px;
+   }
+   .third .row .videoembed .video {
+   }
+   .third .row .videoembed .image{
+   width: 300px;
+   padding-top: 15px;
+   }
+   .third .row .videoembed .image img{
+       height: 100%;
+       width: 100%;
+       object-fit: cover;
+       position: absolute;
+   }
+   
+/* section-3 end */
+
+
+
+/* section-4 start */
+.fourth{
+
+} 
+.fourth .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.fourth .row .children{
+    flex: 200px;
+}
+.fourth .row .children .image{
+    width: 400px;
+}
+.fourth .row .children .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.fourth .row .content{
+    flex: 200px;
+    color: var(--white);
+}
+.fourth .row .content h1{
+    font-size: 50px;
+}
+.fourth .row .content p{
+    font-size: 22px;
+}
+/* section-4 end */
+
+
+/* section-5 start */
+
+.questions{
+    background: var(--black);
+}
+.questions .row{
+    text-align: center;
+    margin: 10px 0px;
+}
+.questions .row.active .anscontant{
+display: block;
+}
+.questions .row h1{
+    font-size: 47px;
+    padding-bottom: 37px;
+    color: white;
+}
+.questions .row .flexitem{
+
+}
+.questions .row .flexitem button{
+    width: 600px;
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    background: #3a3737;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+.questions .row .flexitem button span{
+    font-size: 21px;
+    font-weight: bold;
+}
+.questions .row .flexitem button .plus{
+    font-size: 31px;
+    font-weight: bold;
+}
+.questions .row .anscontant{
+    max-width: 600px;
+    margin: auto;
+    background: #3a3737;
+    color: white;
+    display: none;
+}
+
+.questions .row .anscontant p{
+    font-size: 25px;
+    padding: 13px 23px;
+    line-height: 28px;
+}
+.questions .box-container{
+    margin-top: 54px;
+}
+.questions .box-container .h1{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 11px;
+}
+.questions .box-container .box{
+    
+}
+.questions .box-container .box{
+
+}
+.questions .box-container .box .form .input{
+    width: 400px;
+}
+.questions .box-container .box .form .input input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid gainsboro;
+    outline: none;
+    padding: 17px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 12px;
+}
+.questions .box-container .box .form .button{
+    width: 215px;
+}
+.questions .box-container .box .button button{
+    height: 100%;
+    width: 100%;
+    padding: 17px 3px;
+    border: 1px solid var(--red);
+    background: var(--red);
+    color: var(--white);
+    font-weight: bold;
+    font-size: 19px;
+    cursor: pointer;
+}
+.questions .box-container .box .form #chevron{
+    padding-left: 10px;
+}
+.questions .box-container .box form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* section-5 end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+background: black;
+color: #c3c0c0;
+padding: 50px 80px;
+border-top: 5px solid #302d2de0;
+}
+footer .heading{
+
+}
+footer .heading p{
+
+}
+footer .row {
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(200px , 1fr));
+padding-top: 22px;
+}
+footer .row .col{
+
+}
+footer .row .col a{
+display: block;
+color: #c3c0c0;
+padding: 10px 0px;
+}
+footer .row .col a:hover{
+    text-decoration: underline;
+}
+
+footer .dropdown{
+    padding: 29px 0px;
+}
+footer .dropdown #selectitem{
+    padding: 16px 23px;
+    background: var(--black);
+    color: #737373;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    border-top: 1px solid #737373ad;
+    border-bottom: 1px solid #737373ad;
+}
+footer .dropdown #selectitem option{
+    background: var(--black);
+    color: #737373;
+    font-weight: bold;
+}
+footer span{
+
+}
+
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries start */
+@media(max-width:768px){
+    .unlimited-movies .row form {
+        display: unset;
+    }
+    .unlimited-movies .row form .input {
+        margin: auto;
+    }
+    .unlimited-movies .row .form .button {
+        padding-top: 14px;
+        margin: auto;
+    }
+    .questions .box-container .box form {
+        display: unset;
+    }
+    .questions .box-container .box .input {
+        margin: auto;
+    }
+    .questions .box-container .box .button {
+        padding-top: 14px;
+        margin: auto;
+    }
+
+    footer {
+        padding: 50px 15px;
+    }
+ 
+}
+@media(max-width:400px){
+    .first .row {
+        padding-top: 59px;
+    }
+}
+@media(max-width:435px){
+    .unlimited-movies .row .form .input {
+        width: 100%;
+    }
+    .questions .box-container .box .form .input{
+        width: 100%;
+    }
+}
+@media(max-width:600px){
+    .header .ntfxbutton #selectitem {
+        padding: 6px 8px;
+        font-size: 9px;
+    }
+    .header .ntfxbutton .buttonSignin button {
+        padding:7px 13px;
+        font-size: 12px;
+    }
+    .header .ntfxbutton .buttonSignin {
+        padding: 0px 15px;
+    }
+    .header .netflexlogo .image {
+        width: 112px;
+        margin-left: 20px;
+    }
+    header{
+        height: 700px;
+    }
+}
+@media(max-width:677px){
+    .second .row .content {
+        text-align: center;
+    }
+    .second .row .downloading {
+        flex: unset;
+    }
+    .second .row {
+        justify-content: center;
+    }
+    .fourth .row .content {
+        text-align: center;
+    }
+    .fourth .row .children .image {
+margin: auto;
+    }
+}
+@media(max-width:306px){
+    .header .ntfxbutton {
+        flex-direction: column;
+    }
+    .header .ntfxbutton .buttonSignin {
+        margin-top: 7px;
+    }
+}
+@media(max-width:537px){
+    .first .row .content {
+        text-align: center;
+    }
+    .third .row .content {
+        text-align: center;
+    }
+}
+@media(max-width:638px){
+    .questions .row .flexitem button {
+        width: 100%;
+    }
+    .questions .row .anscontant {
+        width: 100%;
+    }
+}
+
+/* media queries end */
